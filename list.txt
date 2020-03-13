@@ -28,3 +28,4 @@ ris i karry
 Nachos
 Pita
 Pasta carbonara
+Fiskefilleter
