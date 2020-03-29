@@ -2,7 +2,7 @@ let t;
 
 let lowEffortLoaded = false;
 let highEffortLoaded = false;
-
+let syn;
 let rotation = 0;
 
 
@@ -33,8 +33,8 @@ function setup() {
       // array.splice(i, 1)
 
     }
-
-    console.log(retter);
+    syn = retter;
+  //  console.log(retter);
     lowEffortLoaded = true;
     highEffortLoaded = true;
 
@@ -79,5 +79,6 @@ if (rotation > 360) {
 }
 
 function loaded() {
-
+  console.log(syn);
+  noLoop();
 }
