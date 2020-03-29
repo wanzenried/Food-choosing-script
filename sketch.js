@@ -12,6 +12,7 @@ function setup() {
     let text = await response.text();
     let arr = text.split("\n");
     console.log(arr.length);
+    console.log(arr[arr.length-1]);
     let nums = [];
     for (var i = 0; i < arr.length; i++) {
       nums[i] = i;
@@ -40,5 +41,13 @@ function setup() {
 function draw() {
   // put drawing code here
   // console.log(t == undefined);
+
+}
+
+function loading() {
+
+}
+
+function loaded() {
 
 }
