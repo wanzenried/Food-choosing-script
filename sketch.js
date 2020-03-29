@@ -1,9 +1,16 @@
 let t;
 
+let lowEffortLoaded = false;
+let highEffortLoaded = false;
+
+let rotation = 0;
+
 
 function setup() {
   // put setup code here
   createCanvas(600,600);
+  angleMode(DEGREES);
+  textAlign(CENTER,CENTER);
   // loadFile("retter-liste.txt")
 
 
@@ -28,6 +35,8 @@ function setup() {
     }
 
     console.log(retter);
+    lowEffortLoaded = true;
+    highEffortLoaded = true;
 
 
 
@@ -39,13 +48,35 @@ function setup() {
 }
 
 function draw() {
-  // put drawing code here
-  // console.log(t == undefined);
+  background(0);
+
+if (lowEffortLoaded && highEffortLoaded) {
+  loaded();
+} else {
+  loading();
+}
 
 }
 
 function loading() {
-
+translate(width/2,height/2);
+fill(255);
+noStroke();
+text("loading, please wait",0,100);
+rotate(rotation);
+for (var i = 0; i < 10; i++) {
+  push();
+  rotate(i/10*360);
+  translate(0,50);
+  fill(255,255,255,i/10*255);
+  ellipse(0,0,10,10);
+  pop();
+}
+rotation += 0.1 * deltaTime;
+if (rotation > 360) {
+  rotation -= 360;
+}
+console.log("hei");
 }
 
 function loaded() {
