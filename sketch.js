@@ -76,7 +76,6 @@ rotation += 0.1 * deltaTime;
 if (rotation > 360) {
   rotation -= 360;
 }
-console.log("hei");
 }
 
 function loaded() {
