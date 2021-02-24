@@ -3,128 +3,128 @@
     "main": [{
         "name": "Vegetar frikadeller",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Svinekødsfrikadeller",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Medisterpølse",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Fiskefilleter",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Spinatpandekager med fyld",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Quasedillas",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Mexicanske pandekager med fyld",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Jordskok suppe",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Brocolli suppe",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Blomkåls suppe",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Pita med fyld",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Traditionel pizza",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "pizza med tortillabund",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Chili sin carne",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Karbonader",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Porretærte",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Indisk dhal",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Mulligatawny suppe",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Paella med kylling",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Farsbrød",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Tarteletter",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Burgere",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Boller i karry",
         "vegan": false,
-        "effort": "LOW"
+        "lowEffort": true
       }
     ],
     "sides": [{
         "name": "Kartofler",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       },
       {
         "name": "Pasta",
         "vegan": true,
-        "effort": "LOW"
+        "lowEffort": true
       }
     ]
   }
