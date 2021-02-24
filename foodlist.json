@@ -1,7 +1,6 @@
 {
   "food": {
-    "main": [
-      {
+    "main": [{
         "name": "Vegetar frikadeller",
         "vegan": true,
         "effort": "LOW"
@@ -117,8 +116,7 @@
         "effort": "LOW"
       }
     ],
-    "sides": [
-      {
+    "sides": [{
         "name": "Kartofler",
         "vegan": true,
         "effort": "LOW"
