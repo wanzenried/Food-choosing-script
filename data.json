@@ -1,0 +1,33 @@
+{
+  "Food": {
+    "Main": [
+      {
+        "name": "Tom",
+        "vegan": false,
+        "effort": "LOW"
+      },
+      {
+        "name": "Maria",
+        "vegan": true,
+        "effort": "HIGH"
+      },
+      {
+        "name": "Robert",
+        "vegan": false,
+        "effort": "LOW"
+      }
+    ],
+    "Sides": [
+      {
+        "name": "test1",
+        "vegan": false,
+        "effort": "LOW"
+      },
+      {
+        "name": "test2",
+        "vegan": true,
+        "effort": "HIGH"
+      }
+    ]
+  }
+}
