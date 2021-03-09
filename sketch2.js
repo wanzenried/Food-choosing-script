@@ -12,14 +12,10 @@ function setup() {
   background(200);
   veganDays = createSelect();
   veganDays.position(40,40);
-  veganDays.option(0);
-  veganDays.option(1);
-  veganDays.option(2);
-  veganDays.option(3);
-  veganDays.option(4);
-  veganDays.option(5);
-  veganDays.option(6);
-  veganDays.option(7);
+  for (let i = 0; i < 8; i++) {
+    veganDays.option(i);
+  }
+
   // veganDays.disable('Please select');
   veganDays.selected(0);
 
@@ -36,7 +32,7 @@ function draw() {
   background(200);
 
   for (var i = 0; i < retter.length; i++) {
-    text(retter[i],100,i*30 + 150);
+    text(retter[i].name,100,i*30 + 150);
   }
 
 }
@@ -49,7 +45,7 @@ function reRoll() {
   console.log(nums);
   for (var i = 0; i < 7; i++) {
     let randNum = int(random(0,nums.length));
-    retter[i] = food.food.main[nums[randNum]].name;
+    retter[i] = food.food.main[nums[randNum]];
     nums.splice(randNum,1);
 
   }
